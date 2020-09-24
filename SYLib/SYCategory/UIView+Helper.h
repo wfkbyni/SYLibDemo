@@ -1,18 +1,18 @@
+////
+////  UIView+Helper.h
+////  SYLibDemo
+////
+////  Created by 舒永超 on 2020/9/24.
+////  Copyright © 2020 舒永超. All rights reserved.
+////
 //
-//  UIView+Helper.h
-//  SYLibDemo
+//#import <UIKit/UIKit.h>
 //
-//  Created by 舒永超 on 2020/9/24.
-//  Copyright © 2020 舒永超. All rights reserved.
+//@interface UIView (Helper)
 //
-
-#import <UIKit/UIKit.h>
-
-@interface UIView (Helper)
-
-- (CGFloat)getViewWidth;
-
-- (CGFloat)getViewHeight;
-
-@end
-
+//- (CGFloat)getViewWidth;
+//
+//- (CGFloat)getViewHeight;
+//
+//@end
+//
