@@ -16,6 +16,7 @@
 		9AABAAAC251C7255004CBB43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AABAAAB251C7255004CBB43 /* main.m */; };
 		9AABAAB7251C7663004CBB43 /* VPNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AABAAB5251C7662004CBB43 /* VPNRequest.m */; };
 		9AABAABA251C767B004CBB43 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AABAAB9251C767B004CBB43 /* UIView+Helper.m */; };
+		9AABAAE2251C80DE004CBB43 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AABAAE1251C80DE004CBB43 /* NSString+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		9AABAAB5251C7662004CBB43 /* VPNRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNRequest.m; sourceTree = "<group>"; };
 		9AABAAB8251C767B004CBB43 /* UIView+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
 		9AABAAB9251C767B004CBB43 /* UIView+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		9AABAAE0251C80DE004CBB43 /* NSString+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		9AABAAE1251C80DE004CBB43 /* NSString+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 			children = (
 				9AABAAB8251C767B004CBB43 /* UIView+Helper.h */,
 				9AABAAB9251C767B004CBB43 /* UIView+Helper.m */,
+				9AABAAE0251C80DE004CBB43 /* NSString+Helper.h */,
+				9AABAAE1251C80DE004CBB43 /* NSString+Helper.m */,
 			);
 			path = SYCategory;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				9AABAAAC251C7255004CBB43 /* main.m in Sources */,
 				9AABAAB7251C7663004CBB43 /* VPNRequest.m in Sources */,
 				9AABAA9E251C7254004CBB43 /* SceneDelegate.m in Sources */,
+				9AABAAE2251C80DE004CBB43 /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
