@@ -14,6 +14,8 @@
 		9AABAAA6251C7255004CBB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AABAAA5251C7255004CBB43 /* Assets.xcassets */; };
 		9AABAAA9251C7255004CBB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AABAAA7251C7255004CBB43 /* LaunchScreen.storyboard */; };
 		9AABAAAC251C7255004CBB43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AABAAAB251C7255004CBB43 /* main.m */; };
+		9AABAAB7251C7663004CBB43 /* VPNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AABAAB5251C7662004CBB43 /* VPNRequest.m */; };
+		9AABAABA251C767B004CBB43 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AABAAB9251C767B004CBB43 /* UIView+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		9AABAAA8251C7255004CBB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AABAAAA251C7255004CBB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AABAAAB251C7255004CBB43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AABAAB4251C7662004CBB43 /* VPNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNRequest.h; sourceTree = "<group>"; };
+		9AABAAB5251C7662004CBB43 /* VPNRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNRequest.m; sourceTree = "<group>"; };
+		9AABAAB8251C767B004CBB43 /* UIView+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		9AABAAB9251C767B004CBB43 /* UIView+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 		9AABAA8D251C7254004CBB43 = {
 			isa = PBXGroup;
 			children = (
+				9AABAAB2251C7662004CBB43 /* SYLib */,
 				9AABAA98251C7254004CBB43 /* SYLibDemo */,
 				9AABAA97251C7254004CBB43 /* Products */,
 			);
@@ -74,6 +81,33 @@
 				9AABAAAB251C7255004CBB43 /* main.m */,
 			);
 			path = SYLibDemo;
+			sourceTree = "<group>";
+		};
+		9AABAAB2251C7662004CBB43 /* SYLib */ = {
+			isa = PBXGroup;
+			children = (
+				9AABAAB3251C7662004CBB43 /* SYRequest */,
+				9AABAAB6251C7662004CBB43 /* SYCategory */,
+			);
+			path = SYLib;
+			sourceTree = "<group>";
+		};
+		9AABAAB3251C7662004CBB43 /* SYRequest */ = {
+			isa = PBXGroup;
+			children = (
+				9AABAAB4251C7662004CBB43 /* VPNRequest.h */,
+				9AABAAB5251C7662004CBB43 /* VPNRequest.m */,
+			);
+			path = SYRequest;
+			sourceTree = "<group>";
+		};
+		9AABAAB6251C7662004CBB43 /* SYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9AABAAB8251C767B004CBB43 /* UIView+Helper.h */,
+				9AABAAB9251C767B004CBB43 /* UIView+Helper.m */,
+			);
+			path = SYCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +182,9 @@
 			files = (
 				9AABAAA1251C7254004CBB43 /* ViewController.m in Sources */,
 				9AABAA9B251C7254004CBB43 /* AppDelegate.m in Sources */,
+				9AABAABA251C767B004CBB43 /* UIView+Helper.m in Sources */,
 				9AABAAAC251C7255004CBB43 /* main.m in Sources */,
+				9AABAAB7251C7663004CBB43 /* VPNRequest.m in Sources */,
 				9AABAA9E251C7254004CBB43 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
