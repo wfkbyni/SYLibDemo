@@ -10,4 +10,12 @@
 
 @implementation UIView (Helper)
 
+-(CGFloat)getViewWidth {
+    return CGRectGetWidth(self.frame);
+}
+
+-(CGFloat)getViewHeight {
+    return CGRectGetHeight(self.frame);
+}
+
 @end
